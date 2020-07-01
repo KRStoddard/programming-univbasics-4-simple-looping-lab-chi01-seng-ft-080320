@@ -11,7 +11,7 @@ end
 def output_array(value)
   counter = 0 
   while value(counter) do
-    puts array(counter)
+    puts value(counter)
     counter += 1 
   end
 end
