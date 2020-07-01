@@ -8,9 +8,9 @@ def loop_message_n_times(string, num)
     puts string
   end
 end
-def output_array(array)
+def output_array(value)
   counter = 0 
-  while array(counter) do
+  while value(counter) do
     puts array(counter)
     counter += 1 
   end
