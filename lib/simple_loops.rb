@@ -19,7 +19,7 @@ def return_string_array(array)
   counter = 0
   newarray = [] 
   while array[counter] do
-    newarray.push(array[counter])
+    newarray.push(array[counter]_.s)
     counter += 1 
   end
   return newarray
