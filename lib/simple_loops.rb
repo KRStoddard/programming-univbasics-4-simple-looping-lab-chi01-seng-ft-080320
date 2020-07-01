@@ -10,8 +10,8 @@ def loop_message_n_times(string, num)
 end
 def output_array(array)
   counter = 0 
-  while value[counter] do
-    puts value[counter]
+  while array[counter] do
+    puts array[counter]
     counter += 1 
   end
 end
