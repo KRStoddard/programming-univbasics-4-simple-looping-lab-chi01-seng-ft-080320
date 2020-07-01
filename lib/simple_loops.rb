@@ -8,18 +8,18 @@ def loop_message_n_times(string, num)
     puts string
   end
 end
-def output_array(value)
+def output_array(array)
   counter = 0 
-  while value(counter) do
-    puts value(counter)
+  while value[counter] do
+    puts value[counter]
     counter += 1 
   end
 end
 def return_string_array(array)
   counter = 0
   newarray = [] 
-  while array(counter) do
-    newarray.push(array(counter))
+  while array[counter] do
+    newarray.push(array[counter])
     counter += 1 
   end
   return newarray
