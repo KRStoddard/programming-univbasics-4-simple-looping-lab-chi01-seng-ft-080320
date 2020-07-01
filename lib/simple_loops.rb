@@ -22,5 +22,5 @@ def return_string_array(array)
     newarray.push(array[counter])
     counter += 1 
   end
-  puts newarray
+  p newarray
 end
